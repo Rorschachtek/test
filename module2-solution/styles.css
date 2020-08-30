@@ -1,0 +1,47 @@
+*{
+	box-sizing: border-box;
+	font-family: "Seoge UI", Arial, Sans-serif;
+	margin: 0;
+	padding:0;
+}
+h1{
+	text-align: center;
+	font-size: 175%;
+	margin: 5px;
+}
+
+.title{
+	position: absolute;
+	top:0px;
+	right:0px;
+	width:30%;
+	height:40px;
+	text-align: center;
+	padding-top:10px;
+	border: 1px solid black;
+}
+.Row{
+	width:100%;
+}
+
+p{
+	position:relative;
+	margin:10px;
+	border:1px solid black;
+	padding:10px;
+	padding-top: 50px;
+
+
+}
+@media(min-width: 992px){
+	.col-lg-4{
+		float:left;
+		width:33.33%;
+	}
+}
+@media(min-width: 768) and (max-width: 991){
+	.col-md-6{
+		float:left;
+		width:50%;
+	}
+}
