@@ -53,7 +53,6 @@ p{
 	position:relative;
 	margin:10px;
 	border:1px solid black;
-	height:380px;
 	padding:10px;
 	padding-top: 50px;
 	font-family: Helvetica,Sans-serif;
@@ -76,6 +75,7 @@ p{
 	}
 	.col-md-12{
 		float:left;
+		width:100%;
 		clear: both;
 	}
 }
