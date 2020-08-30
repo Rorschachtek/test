@@ -55,6 +55,8 @@ p{
 	border:1px solid black;
 	padding:10px;
 	padding-top: 50px;
+	height:350px;
+	overflow:auto;
 	font-family: Helvetica,Sans-serif;
 
 
