@@ -1,0 +1,216 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding:0px;
+}
+body{
+	background-color: grey;
+	font-family: 'Bubblegum Sans';
+}
+.bar{
+	position: relative;
+	margin-left: 2%;
+	margin-right: 2%;
+	width:96%;
+	height: 80px;
+	background-color:rgba(255,255,255,0.7);
+	border-radius: 0px 0px 10px 10px;
+}
+.bar>img{
+	height:150%;
+	position: absolute;
+	top:0px;
+	left:0px;
+	padding-top:5px;
+	padding-left: 10px;
+	border-radius: 5px 5px 5px 5px;
+}
+.bar #a{
+		position: absolute;
+		left:30%;
+		padding:5px;
+		padding-top: 10px;
+		text-align: center;
+		font-family:'Jua';
+		font-size: 35px;
+	}
+a:link{
+	color:#fff	;
+	text-decoration: none;
+}
+a:visited{
+	color:#000;
+	text-decoration: none;
+}
+a:hover{
+	color:#fff;
+	text-decoration: none;
+}
+.bar #b{
+	position: absolute;
+	right:0;
+	padding: 10px;
+	padding-right: 20px;
+	text-align: center;	
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 20px;	
+	font-weight: bold;
+
+}
+.main{
+	background-image: url(images/bakery1.jpg);
+	height:100%;
+	width: 100%;
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.display{
+	position: relative;
+	height: 650px;
+	width:100%;
+	}
+.display>img{
+	height:400px;
+	width: 400px;
+	position: absolute;
+	right:2%;
+	top: 125px;
+	border-radius: 15px 15px 15px 15px;
+}
+.content{
+	position: relative;
+	background-color: rgba(255,255,255,0.8);
+	margin-left: 2%;
+	margin-right: 2%;
+	border-radius: 10px 10px 0px 0px;
+}
+.row1{
+	position: relative;
+	height:650px;
+}
+.one>span{
+	position: absolute;
+	font-family: 'Barrio';
+	font-size: 44px;
+	padding-top: 60px;
+	padding-left:20px;
+	top:0;
+	left:0;
+}
+.eight{
+	float:left;
+		width:40%;
+}
+p.one{
+	padding-top: 184px;
+	font-size: 28px;
+	padding-left: 20px;
+	overflow: auto;
+
+}
+.full>.del{
+	height: 250px;
+}
+.full{
+	float: left;
+	width:60%;
+}
+.del{
+	position: relative;
+}
+.del>img{
+	position: absolute;
+	width: 84%;
+	top:50px;
+	left:8%;
+	border: 20px solid black;
+}
+.row2{
+	height: 650px;
+	position: relative;
+}
+.us{
+	float:left;
+	width: 50%;
+}
+.more>p{
+	padding:20px;
+	padding-top: 200px;
+	font-size:30px;
+	overflow: auto;
+
+}
+.intro{
+	position: relative;
+	padding-top: 120px;
+}
+.title{
+	position: absolute;
+	font-family: 'Barrio';
+	font-size: 44px;
+	padding-top: 30px;
+	padding-left:20px;
+	top:0;
+	left:0;
+}
+
+.intro>img{
+	width:180px;
+	height:180px;
+	position: absolute;
+	top:140px;
+	left: 35%;
+	border-radius: 90px 90px 90px 90px;
+}
+.intro>p{
+	font-size: 28px;
+	text-align: center;
+	padding-top: 250px;
+}
+.row3{
+	position: relative;
+	height: 450px;
+}
+.twelve{
+	clear: both;
+	padding-left: 20px;
+	font-family: 'Barrio';
+	font-size: 44px;
+}
+.four{
+	float:left;
+	width:33.33%;
+}
+.intro2{
+	position: relative;
+}
+.intro2>img{
+	width:180px;
+	height:180px;
+	position: absolute;
+	top:80px;
+	left: 32%;
+	border-radius: 90px 90px 90px 90px;
+}
+.intro2>p{
+	font-size: 18px;
+	text-align: center;
+	padding-top: 300px;
+}
+.footer{
+	height:150px;
+	font-family: 'Caveat Brush';
+	color:white;
+	-webkit-text-stroke-width: .5px; 
+    -webkit-text-stroke-color: black;
+	background-color: #33cccc;
+	border: 3px solid black;
+	border-radius: 10px 10px 0px 0px;
+}
+.cr>p{
+	font-size: 24px;
+	padding: 10px;
+	padding-left: 30px;
+}
