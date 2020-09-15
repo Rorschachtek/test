@@ -1,0 +1,48 @@
+body{
+	font-size:16px;
+	color:#000;
+	background-color: white;
+	font-family: 'Comic Neue', cursive;
+}
+#header-nav{
+	background-color: grey;
+	border-radius: 0;
+	border:0;
+	border-bottom: 4px solid black;
+}
+h1{
+	color:black;
+}
+a:link,a:visited, a:hover{
+	color:black;
+	text-decoration: none;
+}
+h2{
+	margin:20px;
+}
+#box div{
+	margin-bottom: 20px;
+	background-color: grey;
+	color:black;
+	padding: 20px;
+}
+@media(min-width: 768px){
+	.navbar-toggler{
+		display: none;
+	}
+}
+
+#collapsable-nav{
+	background-color: white;
+	margin-left:-30px;
+	margin-right: -30px;
+	margin-bottom: -10px;
+	border-top:2px solid black;
+}
+.nav-item{
+	border:2px solid black;
+}
+#box a:link, #box a:visited{
+	text-decoration: underline;
+	color:blue;
+}
